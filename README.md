@@ -1,6 +1,6 @@
 # USDCAD 4h OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-1_174_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-38_184_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full USDCAD dataset on ork.ad**](https://ork.ad/)
 
@@ -24,11 +24,11 @@
 - **Ultra high-quality 4h OHLCV** for **US Dollar / Canadian Dollar** (Forex)
 - **24/5 FX liquidity with Asian, European and US sessions — not limited to US market hours**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`4h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **1,174** `4h` rows in the full archive
+- **Free evaluation sample** on GitHub (`4h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **38,184** `4h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `4h` sample updated in sync
 
-> **Sample on GitHub** · `USDCAD_4h.csv` (1,180 rows, `2025-10-02` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **1,174** `4h` rows (~0.07 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2025-10-03` → `2026-07-02`.
+> **Sample on GitHub** · `USDCAD_4h.csv` (1,155 rows, `2025-10-03` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **38,184** `4h` rows (~2.06 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2001-11-28` → `2026-07-03`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/usdcad-4h-ohlcv-forex-his
 |---|--:|---|
 | Instrument | US Dollar / Canadian Dollar · Forex | US Dollar / Canadian Dollar · Forex |
 | Timeframes | `4h` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 4h rows | 1,180 | **1,174** |
-| Size | 0.07 MB | ~0.07 MB |
-| Period | `2025-10-02` → `2026-07-02` | `2025-10-03` → `2026-07-02` |
+| 4h rows | 1,155 | **38,184** |
+| Size | 0.06 MB | ~2.06 MB |
+| Period | `2025-10-03` → `2026-07-03` | `2001-11-28` → `2026-07-03` |
 | File | `USDCAD_4h.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`USDCAD_4h.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-10-02T20:00:00Z | 1.396194 | 1.397264 | 1.396054 | 1.39611 | 7446.0 |
-| 2025-10-03T00:00:00Z | 1.39611 | 1.396914 | 1.396084 | 1.396614 | 23654.0 |
-| 2025-10-03T04:00:00Z | 1.396614 | 1.396934 | 1.395764 | 1.39621 | 19243.0 |
-| 2025-10-03T08:00:00Z | 1.39621 | 1.396914 | 1.395844 | 1.396314 | 21758.0 |
-| 2025-10-03T12:00:00Z | 1.396314 | 1.39681 | 1.394584 | 1.39471 | 47257.0 |
+| 2025-10-03T17:00:00Z | 1.39489 | 1.3962 | 1.3943 | 1.3945 | 21568 |
+| 2025-10-05T21:00:00Z | 1.39562 | 1.39686 | 1.39541 | 1.39582 | 16285 |
+| 2025-10-06T01:00:00Z | 1.39582 | 1.39629 | 1.39465 | 1.395389525 | 14705 |
+| 2025-10-06T05:00:00Z | 1.395389525 | 1.39599 | 1.39429 | 1.39517 | 35107 |
+| 2025-10-06T09:00:00Z | 1.39517 | 1.39658 | 1.39496 | 1.39631 | 29695 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-02T04:00:00Z | 1.42164 | 1.42173 | 1.41924 | 1.41993 | 34930.0 |
-| 2026-07-02T08:00:00Z | 1.41993 | 1.42165 | 1.41849 | 1.42133 | 41083.0 |
-| 2026-07-02T12:00:00Z | 1.42133 | 1.4218 | 1.41489 | 1.41824 | 96077.0 |
-| 2026-07-02T16:00:00Z | 1.41824 | 1.41869 | 1.41742 | 1.41814 | 38587.0 |
+| 2026-07-03T01:00:00Z | 1.41872 | 1.41897 | 1.4165 | 1.41669 | 22267 |
+| 2026-07-03T05:00:00Z | 1.41669 | 1.4183 | 1.416 | 1.41816 | 26081 |
+| 2026-07-03T09:00:00Z | 1.41816 | 1.42058 | 1.418 | 1.42037 | 22068 |
+| 2026-07-03T13:00:00Z | 1.42037 | 1.42081 | 1.4193 | 1.42037 | 18363 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **USDCAD** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **1,174** rows at `4h`, plus all other timeframes in the same ZIP.
+The complete **USDCAD** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **38,184** rows at `4h`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full USDCAD dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · USDCAD 4h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · USDCAD 4h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
